@@ -4,5 +4,5 @@ print("It is a \"beautiful\" day!")
 print('It is a "beautiful" day!')
 """print function to concatenate two strings including new line"""
 print("It is a \"beautiful\" day!\nIt is a 'beautiful' day!")
-"""print function to concatenate two strings using '+' and a new line"""
+"""print function to concatenate two strings using '+' and also including a new line"""
 print("Hello World"+'\nIt is a "beautiful" day')
