@@ -14,7 +14,7 @@ l = bytes('Hello', 'ascii') #bytes - To encode the string into bytes, by default
 l1 = b'Hello' #bytes without encoding
 m = bytearray(2) #bytearray - similar to bytes, but mutable
 n = memoryview(bytes(5)) #memoryview -
-o = None #noneType
+o = None #noneType - It is a data type of the class NoneType object. To denote null value or null object
 #find the type by type method
 print(a, type(a))
 print(b, type(b))
@@ -31,6 +31,7 @@ print(l, type(l), l[0])
 print(l1, type(l1), l1[0])
 print(m, type(m), m[0])
 print(n, type(n), n[0])
+print(o, type(o))
 
 
 
